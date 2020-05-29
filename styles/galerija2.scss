@@ -1,0 +1,1104 @@
+@import './animations2';
+
+@media screen and (min-width: 1400px) {
+    #galerija-wrapp {
+        height: 440vh;
+        width: 100%;
+    }
+
+    #galerija-gap {
+        height: 8vh;
+    }
+
+    #galerija-content {
+        height: 100%;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    #galerija-container {
+        height: 100%;
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #galerija-grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .galerija-grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galerija-ucenik-card {
+        z-index: 49;
+        height: 85%;
+        width: 85%;
+        background: #fff;
+        box-shadow: 0 0 25px#777;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        //cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        min-width: 340px;
+        //min-height: 500px;
+    }
+
+    .galerija-opis-card {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .galerija-opis-card-wrapp {
+            height: 85%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                flex: 1;
+            }
+        }
+    }
+
+    .galerija-opis-card-block1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-heading-circle1 {
+        height: 80px;
+        width: 80px;
+        background: #222;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .galerija-opis-card-block2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        text-align: center;
+
+        p {
+            font-family: 'Pacifico', cursive;
+        }
+    }
+
+    .galerija-opis-card-block3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 32px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    /*
+
+    .galerija-ucenik-card:hover {
+        .galerija-ucenik-card-img {
+            opacity: 0.28;
+            transition: 0.4s;
+        }
+
+        .fade-txt {
+            display: block;
+            transition: 0.4s;
+        }
+
+        /*.fade-txt-wrapp {
+            display: flex;
+            transition: 0.4s;
+        }
+    }*/
+
+    .fade-txt {
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        display: none;
+        font-weight: bold;
+    }
+
+    .galerija-ucenik-card-img {
+        width: 100%;
+        flex: 5;
+    }
+    .galerija-ucenik-card-desc {
+        flex: 1;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    /*
+    .card-img {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }*/
+
+    #footer-galerija-gap {
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    #galerija-wrapp {
+        height: 620vh;
+        width: 100%;
+    }
+
+    #galerija-gap {
+        height: 8vh;
+    }
+
+    #galerija-content {
+        height: 620vh;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    #galerija-container {
+        height: 100%;
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    #galerija-grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    }
+
+    #grid-item2 {
+        display: none;
+    }
+
+    .galerija-grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galerija-ucenik-card {
+        z-index: 49;
+        height: 80%;
+        width: 80%;
+        background: #fff;
+        box-shadow: 0 0 25px#777;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        //cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+    }
+
+    .galerija-opis-card {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .galerija-opis-card-wrapp {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                flex: 1;
+            }
+        }
+    }
+
+    .galerija-opis-card-block1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-heading-circle1 {
+        height: 80px;
+        width: 80px;
+        background: #222;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .galerija-opis-card-block2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        text-align: center;
+
+        p {
+            font-family: 'Pacifico', cursive;
+        }
+    }
+
+    .galerija-opis-card-block3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 32px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    /*
+
+    .galerija-ucenik-card:hover {
+        .galerija-ucenik-card-img {
+            opacity: 0.28;
+            transition: 0.4s;
+        }
+
+        .fade-txt {
+            display: block;
+            transition: 0.4s;
+        }
+
+        /*.fade-txt-wrapp {
+            display: flex;
+            transition: 0.4s;
+        }
+    }*/
+
+    .fade-txt {
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        display: none;
+        font-weight: bold;
+    }
+
+    .galerija-ucenik-card-img {
+        width: 100%;
+        flex: 5;
+
+        img {
+            //: 100%;
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .galerija-ucenik-card-desc {
+        flex: 1;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    #footer-galerija-gap {
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 1050px) { 
+    #galerija-wrapp {
+        height: 850vh;
+        width: 100%;
+    }
+
+    #grid-item1 {
+        display: none;
+    }
+
+    #galerija-gap {
+        height: 8vh;
+    }
+
+    #galerija-content {
+        height: 850vh;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    #galerija-container {
+        height: 100%;
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    #galerija-grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    }
+
+    #grid-item2 {
+        display: none;
+    }
+
+    .galerija-grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galerija-ucenik-card {
+        z-index: 49;
+        height: 80%;
+        width: 80%;
+        background: #fff;
+        box-shadow: 0 0 25px#777;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        //cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+    }
+
+    .galerija-opis-card {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .galerija-opis-card-wrapp {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                flex: 1;
+            }
+        }
+    }
+
+    .galerija-opis-card-block1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-heading-circle1 {
+        height: 80px;
+        width: 80px;
+        background: #222;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .galerija-opis-card-block2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        text-align: center;
+
+        p {
+            font-family: 'Pacifico', cursive;
+        }
+    }
+
+    .galerija-opis-card-block3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    /*
+
+    .galerija-ucenik-card:hover {
+        .galerija-ucenik-card-img {
+            opacity: 0.28;
+            transition: 0.4s;
+        }
+
+        .fade-txt {
+            display: block;
+            transition: 0.4s;
+        }
+
+        /*.fade-txt-wrapp {
+            display: flex;
+            transition: 0.4s;
+        }
+    }*/
+
+    .fade-txt {
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        display: none;
+        font-weight: bold;
+    }
+
+    .galerija-ucenik-card-img {
+        width: 100%;
+        flex: 5;
+
+        img {
+            //: 100%;
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .galerija-ucenik-card-desc {
+        flex: 1;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    #footer-galerija-gap {
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #galerija-wrapp {
+        height: 1750vh;
+        width: 100%;
+    }
+
+    #grid-item1 {
+        display: none;
+    }
+
+    #galerija-gap {
+        height: 8vh;
+    }
+
+    #galerija-content {
+        height: 1750vh;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    #galerija-container {
+        height: 100%;
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    #galerija-grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    }
+
+    #grid-item2 {
+        display: none;
+    }
+
+    .galerija-grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galerija-ucenik-card {
+        z-index: 49;
+        height: 80%;
+        width: 60%;
+        background: #fff;
+        box-shadow: 0 0 25px#777;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        //cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        min-width: 380px;
+    }
+
+    .galerija-opis-card {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .galerija-opis-card-wrapp {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                flex: 1;
+            }
+        }
+    }
+
+    .galerija-opis-card-block1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-heading-circle1 {
+        height: 80px;
+        width: 80px;
+        background: #222;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .galerija-opis-card-block2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        text-align: center;
+
+        p {
+            font-family: 'Pacifico', cursive;
+        }
+    }
+
+    .galerija-opis-card-block3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    /*
+
+    .galerija-ucenik-card:hover {
+        .galerija-ucenik-card-img {
+            opacity: 0.28;
+            transition: 0.4s;
+        }
+
+        .fade-txt {
+            display: block;
+            transition: 0.4s;
+        }
+
+        /*.fade-txt-wrapp {
+            display: flex;
+            transition: 0.4s;
+        }
+    }*/
+
+    .fade-txt {
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        display: none;
+        font-weight: bold;
+    }
+
+    .galerija-ucenik-card-img {
+        width: 100%;
+        flex: 5;
+
+        img {
+            //: 100%;
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .galerija-ucenik-card-desc {
+        flex: 1;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    #footer-galerija-gap {
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #galerija-wrapp {
+        height: 2450vh;
+        width: 100%;
+    }
+
+    #grid-item1 {
+        display: none;
+    }
+
+    #galerija-gap {
+        height: 8vh;
+    }
+
+    #galerija-content {
+        height: 2450vh;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    #galerija-container {
+        height: 100%;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    #galerija-grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    }
+
+    #grid-item2 {
+        display: none;
+    }
+
+    .galerija-grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galerija-ucenik-card {
+        z-index: 49;
+        height: 80%;
+        width: 90%;
+        background: #fff;
+        box-shadow: 0 0 25px#777;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        //cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+    }
+
+    .galerija-opis-card {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .galerija-opis-card-wrapp {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                flex: 1;
+            }
+        }
+    }
+
+    .galerija-opis-card-block1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-heading-circle1 {
+        height: 80px;
+        width: 80px;
+        background: #222;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .galerija-opis-card-block2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        text-align: center;
+
+        p {
+            font-family: 'Pacifico', cursive;
+        }
+    }
+
+    .galerija-opis-card-block3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    /*
+
+    .galerija-ucenik-card:hover {
+        .galerija-ucenik-card-img {
+            opacity: 0.28;
+            transition: 0.4s;
+        }
+
+        .fade-txt {
+            display: block;
+            transition: 0.4s;
+        }
+
+        /*.fade-txt-wrapp {
+            display: flex;
+            transition: 0.4s;
+        }
+    }*/
+
+    .fade-txt {
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        display: none;
+        font-weight: bold;
+    }
+
+    .galerija-ucenik-card-img {
+        width: 100%;
+        flex: 5;
+
+        img {
+            //: 100%;
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .galerija-ucenik-card-desc {
+        flex: 1;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    #footer-galerija-gap {
+        height: 5vh;
+    }
+}
+
+#card-img-1 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Nastavnica\ Goranka.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-2 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Luka\ Alagic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-3 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-4 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Ana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-5 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-6 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX31/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-7 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Vulic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-8 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Bojana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-9 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Gligoric.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-10 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Andjela.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-11 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-12{
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Ivankovic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-13 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Dorotea.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-14 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-15 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Una.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-16 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-17 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Sara.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-18 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Puac.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-19 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-20 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Racic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-21 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Savic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-22 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Mia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-23 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#card-img-24 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Tosic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-img-25 {
+    height: 100%;
+    width: 100%;
+    background: url('/static/assets/IX1/Ema.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
