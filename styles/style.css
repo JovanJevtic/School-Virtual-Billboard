@@ -221,6 +221,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.galerija-ucenik-card {
+  min-height: 520px;
+}
+
 @media screen and (min-width: 1381px) {
   #page-container {
     height: 100vh;
